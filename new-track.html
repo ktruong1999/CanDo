@@ -1,0 +1,115 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+
+
+	<meta charset="UTF-8">
+	<meta name="viewport" content="width=device-width, initial-scale=1.0">
+	<!-- nav bar style sheet -->
+	<link rel="stylesheet" type="text/css" href="css/nav.css">
+	<link rel="stylesheet" type="text/css" href="css/track-pages.css">
+	<link rel='stylesheet' href='css/track-component.css'>
+
+
+	<!-- font stylesheet -->
+	<link rel="stylesheet" type="text/css" href="//fonts.googleapis.com/css?family=Righteous" />
+
+	<!-- font roboto -->
+	<link rel="preconnect" href="https://fonts.gstatic.com">
+	<link href="https://fonts.googleapis.com/css2?family=Roboto:wght@300;400;700&display=swap" rel="stylesheet">
+
+	<!-- tab icon -->
+	<link rel="icon" href="graphics/fish/FISH.svg">
+	<title>CanDo Anything</title>
+
+
+</head>
+
+<body>
+	<script src="new-track.js"> </script>
+
+	<!-- nav bar -->
+	<nav>
+		<ul id='navbar'>
+			<li><a href='index.html' id='home'>Home</a></li>
+			<li><a href='disciplines.html' id='disciplines'>Disciplines</a></li>
+			<li><a href='track-search.html' id='tracks'>Tracks</a></li>
+			<li><a href='organizations.html' id='orgs'>Organizations</a></li>
+		</ul>
+		<a href='login.html'><img src='graphics/lifesaver.svg'></a>
+	</nav>
+	<!-- end of nav bar -->
+
+	<div id='container'>
+		<h1 id='track-title'>Create Your Own Track</h1>
+		<div id='colors'>
+			<span id='brown' onclick='changebrown()' class='dot'></span>
+			<span id='yellow' onclick='changeyellow()' class='dot'></span>
+			<span id='pink' onclick='changepink()' class='dot'></span>
+			<span id='blue' onclick='changeblue()' class='dot'></span>
+		</div>
+
+		<div id='CYOT'class='track-card'>
+	
+			<input id='name' class='tname' placeholder='track name' onchange='tnamechange()'></input>
+			<img id='fishy'class='fish'src='graphics/fish/FISH.svg'>
+			<div class='track'>
+				<div class='info'>
+					<input class='track-type' placeholder='track type'></input>
+					<p class='org-info'><b><span>Organization :</span><input placeholder='location'></input></b></p>
+					<p class='duration'>duration  : <span><input placeholder='# mo'></input></span></p>
+				</div>
+			<div class='descrip'>
+				<h1>Description :</h1>
+				<textarea>type description here...</textarea>
+			</div>
+			<div class='tags'>
+				<h1><b>Tags : </b></h1>
+				<div class='tag-contain'>
+					<input placeholder='sample'></input>
+					<input placeholder='sample'></input>
+					<input placeholder='sample'></input>
+				</div>
+			</div>
+		</div>
+		</div>
+
+		<div id='resources'>
+			<img src='graphics/track/video res.svg'onclick='changenode(1)'>
+			<img src='graphics/track/book res.svg'onclick='changenode(2)'>		
+			<img src='graphics/track/live res.svg'onclick='changenode(3)'>		
+			<img src='graphics/track/end.svg'onclick='changenode(4)'>		
+		</div>
+
+
+		<!-- THERE HAS TO BE A BETTER WAY....but idk it right now... -->
+		
+		<!-- ok for a js project this lowkey has to be the way cuz all elements need to be hardcoded in, this is a problem for react/flask -->
+		<img id='node1' src='graphics/track/blank node.svg'>
+
+		<img id='path1'src='graphics/track/path.svg'>
+
+		<img id='node2' src='graphics/track/blank node.svg'>
+
+		<img id='path2'src='graphics/track/path.svg'>
+
+		<img id='node3' src='graphics/track/blank node.svg' >
+
+		<img id='left-bend' src='graphics/track/path bend.png'>
+
+		<img id='node4' src='graphics/track/blank node.svg'>
+
+		<img id='path3'src='graphics/track/path.svg'>
+
+		<img  id='treasure' src='graphics/track/treasure.png'>
+
+
+	</div>
+
+
+	<footer><p>Cando Team | Calhacks 2020 Golden Bears Cohort | <a  href='about.html'>About</a></p></footer>
+
+</body>
+
+</html>

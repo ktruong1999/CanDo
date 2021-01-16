@@ -1,0 +1,95 @@
+body{
+	display: flex;
+	flex-direction:column;
+	align-items: center;
+}
+
+
+
+#navbar{
+	margin:0;
+	padding:0;
+	height:50px;
+	width : 932px;
+	display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  align-items: center;
+}
+
+#navbar li{
+	display:inline;
+	padding:0;
+	margin:0;
+}
+
+li a {
+	display: inline-block;
+	/* find out one day what this does */
+
+	text-decoration:none;
+	background: #94D3C8;
+	border-radius: 10px;
+	height:50px;
+	width:227px;
+	border:none;
+	
+	font-family: Righteous;
+	font-style: normal;
+	font-weight: normal;
+	font-size: 24.8806px;
+	line-height: 46px;
+	/* dude idk how but this fixed it so that the link is in the center of the bounding box */
+	text-align: center;
+	color: #FFFFFF;
+}
+
+ #disciplines{
+	background:#88B8CD;
+}
+
+#tracks{
+	background: #65729E;
+}
+
+#orgs{
+	background: #5B9271;
+}
+
+nav{
+	width: 1052px;
+	height: 70px;
+	display: flex;
+	flex-direction:row;
+	justify-content: space-between;
+	align-items: center;
+	margin-bottom:20px;
+}
+
+footer{
+	min-width:100%;
+	height: 60px;
+	background: #C4C4C4;
+	display: flex;
+	flex-direction:row;
+	align-items:center;
+		margin-top:50px;
+}
+
+footer p{
+	font-family: Righteous;
+	font-style: normal;
+	font-weight: normal;
+	font-size: 19.5349px;
+	line-height: 24px;
+
+	color: #F3F3F3;
+	margin-left:50px;
+
+
+}
+
+footer p a{
+		color: #F3F3F3;
+
+}

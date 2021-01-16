@@ -1,0 +1,94 @@
+#res{
+	width:1152px;
+	height:1007px;
+	position:relative;
+}
+
+h1{
+	font-family: Righteous;
+	font-style: normal;
+	font-weight: normal;
+	font-size: 78.9414px;
+	line-height: 98px;
+
+	/* crab orange */
+
+	color: #E9A453;
+	margin:0px;
+	position:absolute;
+	top:0%;
+	left:90px;
+}
+
+iframe{
+	position:absolute;
+	top:155px;
+	left:95px;
+}
+
+#outer-bubble{
+	width: 500px;
+	height: 197.22px;
+
+
+	background: #E7F2F7;
+	border-radius: 51.8519px;
+
+	position:absolute;
+	top:155px;
+	right:42px;
+}
+
+#inner-bubble{
+	width: 421.3px;
+	height: 144.44px;
+
+
+	background: #BCDCE7;
+	border-radius: 34.2593px;
+	display: flex;
+  justify-content: center;
+  align-items: center;
+	margin:27px 0px 0px 55px;
+}
+
+#inner-bubble p {
+	width: 361.11px;
+height: 116.67px;
+
+
+font-family: Roboto;
+font-style: italic;
+font-weight: bold;
+font-size: 25.5556px;
+line-height: 30px;
+text-align: center;
+
+/* deep sea */
+
+color: #65729E;
+}
+
+#copy{
+	width: 670px;
+	height: 390px;
+
+	font-family: Roboto;
+	font-style: normal;
+	font-weight: normal;
+	font-size: 25.5556px;
+	line-height: 30px;
+
+	color: #000000;
+
+	position:absolute;
+	top:510px;
+	left:95px;
+}
+
+#res img{
+	position:absolute;
+	top:451px;
+	right:	29px;
+}
+

@@ -1,0 +1,212 @@
+#res{
+	width:1152px;
+	/* border:1px solid black; */
+}
+
+
+#barometer{
+	position: fixed;
+	left:13.5%;
+	top:90px;
+
+}
+
+
+#side-nav{
+	width: 130px;
+	height: 576px;
+	/* border : 1px solid  black; */
+	position:relative;
+}
+
+#side-nav img{
+	position: absolute;
+	top:0px;
+	left:0px;
+
+	z-index: 0;
+}
+
+#side-nav a{
+	z-index:2;
+	position:absolute;
+	left:30px;
+}
+
+#yellow{
+	top:5px;
+}
+
+#blue{
+	top:199px;
+}
+
+#red{
+	top:393px;
+}
+
+#subs{
+	width: 773.98px;
+	height: 181.55px;	
+	/* border : 1px solid black; */
+	display: flex;
+	justify-content:space-between;
+	margin-left:25px;
+}
+
+
+#section1 {
+	/* border : 1px solid black; */
+	width: 798.98px;
+	height: 430.55px;
+
+	margin : 56px auto 249px 260px;
+
+}
+#section1 h1{
+	font-family: Roboto, sans-serif;
+	font-style: normal;
+	font-weight: bold;
+	font-size: 59.6446px;
+	line-height: 69px;
+
+	margin : 0px 0px 23px 0px;
+}
+
+#section1 h2{
+	width: 654.75px;
+	height: 99px;
+
+	font-family: Righteous;
+	font-style: normal;
+	font-weight: normal;
+	font-size: 78.9414px;
+	line-height: 98px;
+
+	color: #31A38E;
+	margin : 0px 0px 59px 139px;
+
+}
+
+#deep-sea{
+	width: 1060px;
+height: 3010px;
+
+
+background: linear-gradient(180deg, #9BE0EF 6.77%, #88B8CD 39.06%, #7A8F9B 66.67%, #4E535F 97.4%);
+border-radius: 51px;
+padding-top:30px;
+padding-bottom:30px;
+
+margin-left:24px;
+}
+
+.section{
+	margin-left:174px;
+}
+
+
+
+#disci-tracks{
+	width: 860px;
+	min-height: 1005px;
+	/* border : 1px solid black; */
+}
+
+#disci-tracks img{
+	margin-bottom:25px;
+}
+
+.track-card{
+	margin-bottom:35px;
+}
+
+#disci-cal{
+	width: 860px;
+height: 963px;
+/* border:1px solid black; */
+margin-top:102px;
+}
+
+#disci-cal :nth-child(2){
+	margin: 37px auto auto 39px;
+}
+
+#disci-stats{
+	width: 860px;
+height: 757px;
+/* border:1px solid black; */
+position: relative;
+margin-top:102px;
+}
+
+#header{
+	position:absolute;
+	top:0%;
+	left:0%;
+}
+
+#disci-stats h1{
+	width: 485.73px;
+	height: 40.17px;
+
+	font-family: Righteous;
+	font-style: normal;
+	font-weight: normal;
+	font-size: 32.2437px;
+	line-height: 40px;
+
+	color: #FFFFFF;
+
+	position: absolute;
+	top:198.18px;
+	left:17px;
+}
+
+#disci-stats h2{
+	width: 350px;
+	height: 112px;
+
+	font-family: Righteous;
+	font-style: normal;
+	font-weight: normal;
+	font-size: 42.2528px;
+	line-height: 52px;
+
+	color: #31A38E;
+
+	position: absolute;
+	top:192px;
+	left:497px;
+
+}
+
+#disci-stats h3{
+	width: 403.79px;
+height: 56px;
+
+
+font-family: Roboto, sans-serif;
+font-style: normal;
+font-weight: bold;
+font-size: 23.75px;
+line-height: 27px;
+text-align: center;
+
+color: #000000;
+position:absolute;
+top:260px;
+left:27px;
+}
+
+#pie{
+	position: absolute;
+	bottom:0%;
+	left:0%;
+}
+
+#key{
+	position: absolute;
+	bottom:0%;
+	right:0%;
+}

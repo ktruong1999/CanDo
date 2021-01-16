@@ -1,0 +1,146 @@
+#d-links{
+	width: 835px;
+	height: 159.58px;
+	display : flex;
+	flex-direction:row;
+	flex-wrap : wrap;
+
+	align-content: space-between;
+  justify-content: space-between;
+
+	z-index:5;
+	position:absolute;
+	top:161px;
+	left:210px;
+}
+
+.disci{
+	background: #94D3C8;
+width: 241.22px;
+height: 64.94px;
+border-radius: 18.5556px;
+
+	border:none;
+
+	text-decoration: none;
+	font-family: Righteous;
+	font-style: normal;
+	font-weight: normal;
+	font-size: 24.8806px;
+	line-height: 31px;
+	color: #FFFFFF;
+
+	text-align: center;
+	display: flex;
+  justify-content: center;
+  align-items: center;
+
+
+}
+
+#cs{
+	background-color:#31A38E;
+}
+
+#ad{
+	background-color:#7A8F9B;
+}
+
+#math{
+	background-color:#A8ECC3;
+}
+
+#bio{
+	background-color:#857B92;
+}
+
+#chem{
+	background-color:#C9E873;
+}
+
+#whale-contain{
+	width: 1150px;
+height: 440px;
+position: relative;
+}
+
+#whale-contain img{
+	position: absolute;
+	left:21px;
+	z-index : -1;
+}
+
+#whale-contain h1{
+	font-family: Righteous;
+font-style: normal;
+font-weight: normal;
+font-size: 48.8571px;
+line-height: 61px;
+
+color: #88B8CD;
+position: absolute;
+left:397px;
+top:0%;
+z-index:5;
+margin:0px;
+}
+
+#search-contain{
+	margin-top:20px;
+	width: 1150px;
+	height: 94px;
+	display: flex;
+	flex-direction:column;
+	align-items:center;
+	justify-content:center;
+}
+#search-bar{
+	width: 780px;
+	height: 49px;
+
+	background: #C4C4C4;
+	border-radius: 20px;
+	display: flex;
+	flex-direction:row;
+	align-items:center;
+	justify-content:center;
+}
+
+#search-bar img{
+	margin: auto 10px auto 10px;
+}
+
+#text-box{
+	width: 691px;
+height: 34px;
+font-weight:bold;
+font-size: 15px;
+line-height: 16px;
+background-color: transparent;
+border:none;
+}
+
+#search-contain h1{
+	font-family: Righteous;
+font-style: normal;
+font-weight: normal;
+font-size: 31.7143px;
+line-height: 39px;
+
+color: #94D3C8;
+margin:0px;
+
+}
+
+
+#inter{
+	font-family: Righteous;
+font-style: normal;
+font-weight: normal;
+font-size: 30.8571px;
+line-height: 38px;
+
+
+color: #65729E;
+margin:20px auto 0px auto;
+}

@@ -1,0 +1,124 @@
+h1, h2{
+	font-family: Righteous;
+font-style: normal;
+}
+
+h1 {
+	font-size : 48px;
+	margin: 0px auto 20px auto;
+}
+h1 span{
+	color:#5B9271;
+}
+
+.org{
+	width: 480.04px;
+	height: 159.1px;
+	position: relative;
+
+}
+
+
+.tag{
+	width: 240px;
+	height: 89px;
+	border-radius:18px;
+	position: absolute;
+	top:34px;
+	left:20px;
+	z-index:1;
+	background: #FFFFFF;	
+
+}
+
+.org-name{
+	Width:139px; 
+	Height :37.57px;
+	color:black;
+
+	position: absolute;
+	left:110px;
+	top:64px;
+	z-index:2;
+	font-size: 30.0541px;
+	line-height: 37px;
+	margin:0px;
+}
+
+.org-pic{
+	position: absolute;
+	top:39px;
+	left:27px;
+
+	height:78px;
+	width:78px;
+	z-index:2;
+}
+
+
+.fishes{
+	width:168px;
+	height:98px;
+	position: absolute;
+	top:37px;
+	right:29px;
+}
+
+.fish-wrap{
+	Width :90.29px;
+Height :47.22px;
+position:relative;
+top:0%;
+left:25%;
+}
+
+.fish{
+	Width :90.29px;
+	Height :47.22px;
+	position: absolute;
+	top:0%;
+	left:0%;
+	z-index:2;
+}
+
+.track-name{
+	Width :82.74px;
+	Height: 12.82px;
+	font-family: 'Roboto', sans-serif;
+	font-size: 12.9882px;
+	line-height: 13px;
+	/* identical to box height */
+
+	text-align: center;
+	z-index:5;
+	position:absolute;
+	top:6.41px;
+	left:0%;
+	color:white;
+	-webkit-text-stroke: 0.4px #000000;
+
+}
+
+#tank1 h2{
+	font-family:roboto,sans-serif;
+
+}
+#tank1 img{
+		opacity: 0.65;
+
+}
+
+
+#tanks{
+	width: 1031.04px;
+	height: 378.1px;
+	display: flex;
+	flex-wrap:wrap;	
+	align-content: space-between;
+  justify-content: space-between;
+}
+
+footer{
+	position: absolute;
+	bottom:0%;
+}

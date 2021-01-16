@@ -1,0 +1,93 @@
+
+.member-component{
+	width: 279px;
+	height: 339px;
+	/* border:1px solid black; */
+	position:relative;
+}
+
+.card{
+	Width :250px;
+	Height :265px;
+	background: linear-gradient(24.81deg, #13547A 38.93%, #56A0A9 69.23%, #80D0C7 88.06%);
+	border-radius: 20px;
+	position: absolute;
+	top:43px;
+	left:0px;
+	z-index:0;
+}
+
+.pic{
+	position: absolute;
+	top:2px;
+	left:40px;
+	z-index:1;
+	/* box-shadow: 0px 4px 4px 3px rgba(0, 0, 0, 0.25); */
+	/* look up box shadow and rounded corners later... */
+}
+
+.status{
+	position: absolute;
+	bottom:0%;
+	right:0%;
+	z-index:2;
+}
+
+.card-info{
+	width: 218px;
+	height: 110px;
+	/* border: 1px solid black; */
+	z-index:2;
+	position:absolute;
+	top:174px;
+	left:16px;
+	display:flex;
+	flex-direction:column;
+	place-content: space-evenly;
+}
+
+.member{
+	font-family: Righteous;
+	font-style: normal;
+	font-weight: normal;
+	font-size: 24.3529px;
+	line-height: 30px;
+	text-align: center;
+
+	color: #FFFFFF;
+	margin:0px;
+}
+
+.title{
+	font-family: Roboto;
+	font-style: normal;
+	font-weight: 500;
+	font-size: 18px;
+	line-height: 21px;
+	text-align: center;
+
+	color: #BBBBBB;
+	margin:0px;
+
+}
+
+.title span{
+	color: #E9A453;
+	margin:0px;
+}
+
+.card-info a{
+	font-family: Roboto;
+	font-style: normal;
+	font-weight: bold;
+	font-size: 18px;
+	line-height: 21px;
+	/* identical to box height */
+
+	text-align: center;
+
+	color: #142430;
+	margin:0px;
+	text-decoration:none;
+}
+

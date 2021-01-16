@@ -1,0 +1,181 @@
+.container{
+	display: flex;
+	flex-direction:column;
+	align-items: center;
+	/* border : 1px solid black; */
+}
+
+#disci-contain{
+	width: 1150px;
+height: 237px;
+margin-top:20px;
+
+}
+
+#disci-contain h1{
+	font-family: Righteous;
+font-style: normal;
+font-weight: normal;
+font-size: 29.1429px;
+line-height: 36px;
+
+color: #88B8CD;
+margin:0px auto 33px auto;
+}
+
+#d-links{
+	height : 172px;
+	width : 900px;
+	display : flex;
+	flex-direction:row;
+	flex-wrap : wrap;
+
+	align-content: space-between;
+  justify-content: space-between;
+}
+
+.disci{
+	background: #94D3C8;
+	border-radius: 10px;
+	width: 260px;
+	height: 70px;
+	border:none;
+
+	text-decoration: none;
+	font-family: Righteous;
+	font-style: normal;
+	font-weight: normal;
+	font-size: 24.8806px;
+	line-height: 31px;
+	color: #FFFFFF;
+
+	text-align: center;
+	display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+#cs{
+	background-color:#31A38E;
+}
+
+#ad{
+	background-color:#7A8F9B;
+}
+
+#math{
+	background-color:#A8ECC3;
+}
+
+#bio{
+	background-color:#857B92;
+}
+
+#chem{
+	background-color:#C9E873;
+}
+
+#search-contain{
+	margin-top:20px;
+	width: 1150px;
+	height: 94px;
+	display: flex;
+	flex-direction:column;
+	align-items:center;
+	justify-content:center;
+}
+#search-bar{
+	width: 780px;
+	height: 49px;
+
+	background: #C4C4C4;
+	border-radius: 20px;
+	display: flex;
+	flex-direction:row;
+	align-items:center;
+	justify-content:center;
+}
+
+#search-bar img{
+	margin: auto 10px auto 10px;
+}
+
+#text-box{
+	width: 691px;
+height: 34px;
+font-weight:bold;
+font-size: 15px;
+line-height: 16px;
+background-color: transparent;
+border:none;
+}
+
+#search-contain h1{
+	font-family: Righteous;
+font-style: normal;
+font-weight: normal;
+font-size: 31.7143px;
+line-height: 39px;
+
+color: #94D3C8;
+margin:0px;
+
+}
+
+#carousel{
+	width: 1150px;
+height: 329px;
+position:relative;
+}
+
+#carousel img{
+	z-index:-1;
+}
+
+#carousel a{
+	z-index :2;
+}
+
+#sign-up{
+text-align: center;
+    width: 186px;
+    height: 50px;
+    background: #88B8CD;
+    border-radius: 20px;
+    font-family: Righteous;
+    font-style: normal;
+    font-weight: normal;
+    font-size: 19.5349px;
+    line-height: 47px;
+    color: #FFFFFF;
+    position: absolute;
+    top: 263px;
+    left: 322px;
+    /* line-height: 2.3; */
+    text-decoration: none;
+
+}
+
+#login{
+text-align: center;
+    width: 186px;
+    height: 50px;
+    background: white;
+    border-radius: 20px;
+		border: 5px solid #88B8CD;
+		box-sizing:border-box;
+		/* this makes it so the border is on the inside not outside */
+
+    font-family: Righteous;
+    font-style: normal;
+    font-weight: normal;
+    font-size: 19.5349px;
+    line-height: 38px;
+    color: #88B8CD;
+    position: absolute;
+    top: 263px;
+    right: 322px;
+    /* line-height: 2.3; */
+    text-decoration: none;
+}
+

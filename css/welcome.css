@@ -1,0 +1,45 @@
+#section1{
+	width: 970px;
+	height: 430px;
+	display:flex;
+	justify-content:space-between;
+	align-items:center;
+}
+
+#paths{
+	display: flex;
+	flex-direction:column;
+	justify-content:space-between;
+
+
+	width: 280px;
+	height: 286.02px;
+	/* border : 1px solid black; */
+}
+
+#paths a {
+	width: 280px;
+	height: 75.27px;
+
+	background: #EE8A7C;
+	border-radius: 30.1075px;
+
+	font-family: Righteous;
+	font-style: normal;
+	font-weight: normal;
+	font-size: 29.4074px;
+	line-height: 69px;
+	/* identical to box height */
+
+	color: #FFFFFF;
+	text-decoration:none;
+	text-align:center;
+}
+
+#paths  a:nth-child(2){
+	background:#E9A453;
+}
+
+#paths  a:nth-child(3){
+	background:#C9E873;
+}
